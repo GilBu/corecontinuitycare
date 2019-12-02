@@ -1,0 +1,100 @@
+.header {
+  background: #fff;
+  color: #5d5d5d;
+  overflow: hidden;
+}
+
+.title {
+  text-align: left;
+  display: inline-block;
+  float: left;
+  font-size: 30px;
+  margin: 0;
+  padding: 20px;
+}
+
+.compact {
+  display: none;
+  padding: 20px;
+}
+.links-list {
+  display: inline-block;
+  text-align: right;
+  float: right;
+  margin: 0px;
+  padding: 20px;
+}
+
+.link-style {
+  font-size: 23px;
+  text-align: right;
+  color: #5d5d5d;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 1125px) {
+  .title {
+    text-align: left;
+    display: inline-block;
+    float: left;
+    font-size: 26px;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .links-list {
+    display: show;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .link-style {
+    display: block;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-align: left;
+    width: 100%;
+    background-color: #696968;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+  }
+
+  .compact {
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+    background-color: #696968;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 45px;
+    background-color: none;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 12px;
+    cursor: pointer;
+  }
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

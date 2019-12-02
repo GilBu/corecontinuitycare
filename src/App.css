@@ -1,0 +1,119 @@
+:root {
+  --background-color-1: #696968;
+  --background-color-2: #5ca5da;
+  --background-color-3: #62c3f1;
+  --font-color-1: #56c2cd;
+  --font-color-2: #5d5d5d;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.missionStyle {
+  /* background: url('image-files/doctortools.jpg'); */
+  background-color: #5ca5da;
+  position: relative;
+  margin: 0px auto;
+  max-width: 900px;
+  padding: 70px;
+}
+
+/* .missionImage {
+  background-color: #5ca5da80;
+  position: absolute;
+  padding: 70px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+/* .missionStyle {
+  background-color: #5ca5da;
+  padding: 70px;
+  margin: 0px auto;
+  max-width: 900px;
+}
+
+.missionStyle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .5;
+  background-image: url('image-files/doctortools.jpg');
+} */
+
+.container1 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.headingStyle {
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  line-height: 1.5;
+  vertical-align: baseline;
+}
+
+.btnStyle {
+  background: white;
+  border: none;
+  color: #000;
+  font-size: 20px;
+  padding: 0px;
+  border-radius: 5%;
+  cursor: pointer;
+  float: right;
+  margin: 0px;
+}
+
+.learn {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1125px) {
+  .missionStyle {
+    padding: 20px;
+    padding-bottom: 60px;
+  }
+
+  .headingStyle {
+    font-size: 20px;
+  }
+}
