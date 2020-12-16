@@ -10,7 +10,7 @@ function Locations() {
         <div className="responsive">
           <div className="responsive">
             <div className="gallery">
-              <a href={img.placeID}> <img src={img.image} alt={img.name}/></a>
+              <a href={img.placeID} target= "_blank"> <img src={img.image} alt={img.name}/></a>
               <div>{img.name}</div>
               <div>{img.address}</div>
               <div>Phone: {img.phone}</div>
