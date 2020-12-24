@@ -1,4 +1,5 @@
 import React from 'react'
+import Bio from 'bio'
 import {imagesList} from './images.js'
 import './styles.css'
 
