@@ -1,5 +1,5 @@
 import React from 'react'
-import Bio from 'bio'
+import Bio from './bio.js'
 import {imagesList} from './images.js'
 import './styles.css'
 
@@ -37,6 +37,7 @@ function About() {
         <div className="middlethis" dir='rtl'>
           {produceImageWidgets()}
         </div>
+        <Bio></Bio>
       </div>
     </React.Fragment>
   )
