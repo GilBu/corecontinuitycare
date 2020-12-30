@@ -25,16 +25,12 @@ function Locations() {
     <React.Fragment>
       <div className="locations">
          <h1>Locations</h1>
-         <div>
+         <div className="location-info">
           {produceImageWidgets()}
          </div>
        </div>
     </React.Fragment>
   )
-}
-
-const testStyle = {
-  width: '50px'
 }
 
 export default Locations;

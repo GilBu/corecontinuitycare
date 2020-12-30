@@ -3,6 +3,13 @@
   margin-top: 50px;
 }
 
+.location-info {
+  display: flex;
+  flex-flow: row wrap;
+  align-self: space-between;
+  justify-content: space-between;
+}
+
 .gallery a img:hover {
   -webkit-transform: scale(1);
 	transform: scale(1.1);
