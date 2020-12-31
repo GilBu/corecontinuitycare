@@ -7,8 +7,7 @@ function Locations() {
   const produceImageWidgets = () => {
     return imagesList.map(img => {
       return (
-        <div className="responsive">
-          <div className="responsive">
+          <div className="location">
             <div className="gallery">
               <a href={img.placeID} target= "_blank"> <img src={img.image} alt={img.name}/></a>
               <div>{img.name}</div>
@@ -17,15 +16,14 @@ function Locations() {
               <div><i class="fa">&#xf1ac;</i> {img.fax}</div>
             </div>
           </div>
-        </div>
       )
     });
   }
   return (
     <React.Fragment>
-      <div className="locations">
+      <div className="locations-container">
          <h1>Locations</h1>
-         <div className="location-info">
+         <div className="locations-info">
           {produceImageWidgets()}
          </div>
        </div>

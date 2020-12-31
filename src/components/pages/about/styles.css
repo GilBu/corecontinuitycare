@@ -21,10 +21,6 @@ div.gallery img {
   object-fit: cover;
 }
 
-.responsive {
-  
-}
-
 .gallery {
   flex-grow:0;
   flex-shrink:0;
