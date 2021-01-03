@@ -1,9 +1,22 @@
 import React from 'react'
 import './styles.css'
+import {imagesList} from './images.js'
 
 class Bio extends React.Component {
   state = {
     opened: false
+  }
+
+  produceBioWidgets = () => {
+    return bioList.map(bioInfo => {
+      return (
+        <div className="responsive">
+          <div className="bios">
+            <p>{bioInfo.bio}</p>
+          </div>
+        </div>
+      )
+    });
   }
 
   render () {
