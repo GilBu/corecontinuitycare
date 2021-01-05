@@ -4,6 +4,7 @@ import {imagesList} from './images.js'
 import './styles.css'
 
 function About() {
+  const staffId
   const produceImageWidgets = () => {
     return imagesList.map(img => {
       return (
