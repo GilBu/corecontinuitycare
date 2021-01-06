@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-import {imagesList} from './images.js'
+import {bioList} from './images.js'
 
 class Bio extends React.Component {
   state = {
