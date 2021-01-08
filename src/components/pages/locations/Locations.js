@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from "react-dom";
 import {imagesList} from './images.js'
 import './styles.css'
 

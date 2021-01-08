@@ -1,10 +1,9 @@
 import React from 'react'
-import Bio from './bio.js'
 import {imagesList} from './images.js'
+import Bio from './bio.js'
 import './styles.css'
 
 function About() {
-  const staffId
   const produceImageWidgets = () => {
     return imagesList.map(img => {
       return (
@@ -38,7 +37,7 @@ function About() {
         <div className="middlethis" dir='rtl'>
           {produceImageWidgets()}
         </div>
-        <Bio></Bio>
+        <Bio />
       </div>
     </React.Fragment>
   )
