@@ -4,7 +4,7 @@ import {imagesList} from './images.js'
 
 class Bio extends React.Component {
   state = {
-    opened: false
+    opened: {}
   }
   render () {
     const {
