@@ -1,6 +1,7 @@
 import React from 'react';
 import {imagesList} from './images.js'
 import './styles.css'
+import ContactUs from '../contactUs/ContactUs';
 
 function Locations() {
   const produceImageWidgets = () => {
@@ -25,7 +26,8 @@ function Locations() {
          <div className="locations-info">
           {produceImageWidgets()}
          </div>
-       </div>
+      </div>
+      <ContactUs />
     </React.Fragment>
   )
 }

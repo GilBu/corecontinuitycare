@@ -2,6 +2,7 @@ import React from 'react'
 import {imagesList} from './images.js'
 import Bio from './bio.js'
 import './styles.css'
+import ContactUs from '../contactUs/ContactUs';
 
 function About() {
   const produceImageWidgets = () => {
@@ -39,6 +40,7 @@ function About() {
         </div>
         <Bio />
       </div>
+      <ContactUs />
     </React.Fragment>
   )
 }

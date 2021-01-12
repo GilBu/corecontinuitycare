@@ -35,7 +35,6 @@ class App extends React.Component {
                 </div>
               </div>
               <Locations />
-              <ContactUs />
               </React.Fragment>
             )} />
             <Route path="/about" component={About} />
