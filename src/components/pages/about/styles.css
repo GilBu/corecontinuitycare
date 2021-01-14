@@ -48,5 +48,14 @@ div.gallery img {
 }
 
 .accordion-item{
+  display: flex;
+  flex-direction: column;
+}
 
+.accordion-item__line{
+  max-width: 400px;
+}
+
+.bio-image{
+  max-width: 400px;
 }

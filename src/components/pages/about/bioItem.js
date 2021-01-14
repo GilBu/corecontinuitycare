@@ -10,7 +10,9 @@ class BioItem extends React.Component {
     const {
       props: {
         bio,
-        title
+        title,
+        name,
+        image
       },
       state: {
         opened
@@ -25,8 +27,9 @@ class BioItem extends React.Component {
           }}
         >
           <div {...{ className: 'accordion-item__line' }}>
+            <img className='bio-image' src={image} alt={name}/>
             <h3 {...{ className: 'accordion-item__title' }}>
-              {title}
+              {name}: {title}
             </h3>
           </div>
             <div {...{ className: 'accordion-item__inner' }}>
