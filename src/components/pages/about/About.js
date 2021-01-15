@@ -5,6 +5,25 @@ import './styles.css'
 import ContactUs from '../contactUs/ContactUs';
 
 function About() {
+
+  const bio = (selected) => {
+    let selectedBio = imagesList[selected]
+    return (
+      <div>
+        <div>
+          <img className='bio-image' src={image} alt={name}/>
+          <h3>
+            {selectedBio.name}
+          </h3>
+          <h4>
+            {selectedBio.title}
+          </h4>
+        </div>
+        {selectedBio.bio}
+      </div>
+    )
+  }
+
   const produceImageWidgets = () => {
     return imagesList.map(img => {
       return (
@@ -37,6 +56,9 @@ function About() {
         <h1>Meet the Team</h1>
         <div className="middlethis" dir='rtl'>
           {produceImageWidgets()}
+        </div>
+        <div>
+          {bio(selected)}
         </div>
         <Bio />
       </div>
