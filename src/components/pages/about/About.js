@@ -6,6 +6,10 @@ import ContactUs from '../contactUs/ContactUs';
 
 function About() {
 
+  const onClickBio = () => {
+
+  }
+
   const bio = (selected) => {
     let selectedBio = imagesList[selected]
     return (
@@ -25,9 +29,9 @@ function About() {
   }
 
   const produceImageWidgets = () => {
-    return imagesList.map(img => {
+    return imagesList.map(img, idx => {
       return (
-        <div className="responsive">
+        <div className="responsive" key={idx.toString()} >
           <div className="gallery">
             <img src={img.image} alt={img.name}/>
             <div>{img.name}</div>
