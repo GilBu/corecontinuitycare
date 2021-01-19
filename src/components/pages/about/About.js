@@ -5,9 +5,10 @@ import './styles.css'
 import ContactUs from '../contactUs/ContactUs';
 
 function About() {
+  let selected = 0
 
-  const onClickBio = () => {
-
+  const onClickBio = (key) => {
+    selected = key;
   }
 
   const bio = (selected) => {
@@ -15,7 +16,7 @@ function About() {
     return (
       <div>
         <div>
-          <img className='bio-image' src={image} alt={name}/>
+          <img className='bio-image' src={selectedBio.image} alt={selectedBio.name}/>
           <h3>
             {selectedBio.name}
           </h3>
@@ -29,10 +30,10 @@ function About() {
   }
 
   const produceImageWidgets = () => {
-    return imagesList.map(img, idx => {
+    return imagesList.map((img, idx) => {
       return (
         <div className="responsive" key={idx.toString()} >
-          <div className="gallery">
+          <div className="gallery" onClick={() => onClickBio(idx)}>
             <img src={img.image} alt={img.name}/>
             <div>{img.name}</div>
             <div dir='ltr'>{img.title}</div>
@@ -64,7 +65,6 @@ function About() {
         <div>
           {bio(selected)}
         </div>
-        <Bio />
       </div>
       <ContactUs />
     </React.Fragment>
