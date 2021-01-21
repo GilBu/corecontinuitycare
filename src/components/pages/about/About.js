@@ -7,10 +7,6 @@ import ContactUs from '../contactUs/ContactUs';
 class About extends React.Component {
   state ={selected: 0}
 
-  // onClickBio = (key) => {
-  //   selected = key;
-  // }
-
   bio () {
     let selectedBio = imagesList[this.state.selected]
     return (
