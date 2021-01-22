@@ -47,15 +47,31 @@ div.gallery img {
   margin: auto;
 }
 
-.accordion-item{
+.bio-item {
+  display: flex;
+  justify-content: center;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+  margin-top: 50px;
+}
+
+.bio-image {
+  max-width: 300px;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.bio {
   display: flex;
   flex-direction: column;
-}
-
-.accordion-item__line{
-  max-width: 400px;
-}
-
-.bio-image{
-  max-width: 400px;
+  justify-content: center;
+  margin-bottom: 65px;
+  padding-left: 100px;
+  text-align: left;
 }

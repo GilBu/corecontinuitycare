@@ -1,6 +1,5 @@
 import React from 'react'
 import {imagesList} from './images.js'
-import Bio from './bio.js'
 import './styles.css'
 import ContactUs from '../contactUs/ContactUs';
 
@@ -10,17 +9,19 @@ class About extends React.Component {
   bio () {
     let selectedBio = imagesList[this.state.selected]
     return (
-      <div>
+      <div className='bio-container'>
         <div>
           <img className='bio-image' src={selectedBio.image} alt={selectedBio.name}/>
           <h3>
             {selectedBio.name}
           </h3>
-          <h4>
+        </div>
+        <div className='bio'>
+          <h4 className='title'>
             {selectedBio.title}
           </h4>
+          {selectedBio.bio}
         </div>
-        {selectedBio.bio}
       </div>
     )
   }
@@ -60,7 +61,7 @@ class About extends React.Component {
           <div className="middlethis" dir='rtl'>
             {this.produceImageWidgets()}
           </div>
-          <div>
+          <div className='bio-item'>
             {this.bio()}
           </div>
         </div>
