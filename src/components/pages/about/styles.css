@@ -12,6 +12,11 @@
   justify-content: space-between;
 }
 
+.gallery:hover{
+  background-color: #5ca5da;opacity:0.25;
+  
+}
+
 div.gallery img {
   display: inline;
     margin: 5px;
@@ -75,3 +80,4 @@ div.gallery img {
   padding-left: 100px;
   text-align: left;
 }
+
