@@ -4,7 +4,7 @@ import './styles.css'
 import ContactUs from '../contactUs/ContactUs';
 
 class About extends React.Component {
-  state ={selected: 0}
+  state ={selected: 0, display: "none"}
 
   bio () {
     let selectedBio = imagesList[this.state.selected]
@@ -30,7 +30,7 @@ class About extends React.Component {
     return imagesList.map((img, idx) => {
       return (
         <div className="responsive" key={idx.toString()} >
-          <div className="gallery" onClick={() => this.setState({selected: idx})}>
+          <div className="gallery" onClick={() => this.setState({selected: idx, display: "flex"})}>
             <img src={img.image} alt={img.name}/>
             <div>{img.name}</div>
             <div dir='ltr'>{img.title}</div>
@@ -61,7 +61,7 @@ class About extends React.Component {
           <div className="middlethis" dir='rtl'>
             {this.produceImageWidgets()}
           </div>
-          <div className='bio-item'>
+          <div className='bio-item' style={{display: this.state.display}}>
             {this.bio()}
           </div>
         </div>
