@@ -41,7 +41,7 @@ class App extends React.Component {
             <Route path="/locations" component={Locations} />
             <Route path="/contactUs" component={ContactUs} />
           </div>
-
+          <ContactUs />
         </div>
       </Router>
     );

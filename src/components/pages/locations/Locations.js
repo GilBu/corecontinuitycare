@@ -27,7 +27,6 @@ function Locations() {
           {produceImageWidgets()}
          </div>
       </div>
-      <ContactUs />
     </React.Fragment>
   )
 }

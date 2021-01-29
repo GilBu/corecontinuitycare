@@ -65,7 +65,6 @@ class About extends React.Component {
             {this.bio()}
           </div>
         </div>
-        <ContactUs />
       </React.Fragment>
     )
   }
