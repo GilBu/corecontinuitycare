@@ -13,7 +13,10 @@ function Locations() {
               <div>{img.name}</div>
               <div>{img.address}</div>
               <div><i class="fa">&#xf095;</i> {img.phone}</div>
-              <div><i class="fa">&#xf1ac;</i> {img.fax}</div>
+              {img.fax &&
+                <div><i class="fa">&#xf1ac;</i> {img.fax}</div>
+              }
+              
             </div>
           </div>
       )
