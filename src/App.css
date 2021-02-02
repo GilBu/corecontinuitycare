@@ -6,12 +6,15 @@
   --font-color-2: #5d5d5d;
 }
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
   min-height: 100vh;
 }
 
 .container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .App-logo {
