@@ -4,6 +4,8 @@ import pMac from './image-files/pMac.PNG'
 import iValerio from './image-files/iValerio.png'
 import mChang from './image-files/mChang.jpg'
 import mPatel from './image-files/mPatel.png'
+import sKang from './image-files/sKang.png'
+import rAllison from './image-files/rAllison.jpg'
 
 export const imagesList= [
   {
@@ -44,6 +46,18 @@ export const imagesList= [
     title: 'Director of Provider Services at Core Continuity of Care, Inc.',
     image: mChang,
     bio: 'Michael Chang is our Director of Provider Services. Michael graduated with a degree in Health Administration and Management with the University of Phoenix. He has had years of experience working within multiple facets in both the acute and post-acute setting. This allows him to be able to assess and prioritize the needs of both patients and providers, and raise service standards. Michael is also an integral part of the administrative operations and revenue cycle. He is passionate about providing support and improving quality of care for patients.'
+  },
+  {
+    name: 'Stephanie Kang, DO',
+    title: 'Physician at Core Continuity of Care, Inc.',
+    image: sKang,
+    bio: 'Polian is an integral part of the patient care process as patients transition through different levels of care.  She assists in ensuring effective communication and the smooth transfer of patient data between clinical providers and facilities throughout the entirety of the patient stay.  From admission to discharge, Polian closely monitors clinical pathways with clinical providers to ensure positive outcomes.  Polian brings several years of scribe experience and leadership to Core Continuity of Care.  She previously served as a lead scribe within Verity Health System.  She earned her Bachelor of Science in Molecular, Cell, & Developmental Biology from the University of California, Santa Cruz. Polian is passionate about patient care and successful outcomes, and is actively pursuing a career as a physician.'
+  },
+  {
+    name: 'Rachel Allison',
+    title: 'Clinical Administrative Analyst at Core Continuity of Care, Inc.',
+    image: rAllison,
+    bio: 'Polian is an integral part of the patient care process as patients transition through different levels of care.  She assists in ensuring effective communication and the smooth transfer of patient data between clinical providers and facilities throughout the entirety of the patient stay.  From admission to discharge, Polian closely monitors clinical pathways with clinical providers to ensure positive outcomes.  Polian brings several years of scribe experience and leadership to Core Continuity of Care.  She previously served as a lead scribe within Verity Health System.  She earned her Bachelor of Science in Molecular, Cell, & Developmental Biology from the University of California, Santa Cruz. Polian is passionate about patient care and successful outcomes, and is actively pursuing a career as a physician.'
   },
   {
     name: 'Polian Mac',
