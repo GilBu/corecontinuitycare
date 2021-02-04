@@ -51,13 +51,13 @@ export const imagesList= [
     name: 'Stephanie Kang, DO',
     title: 'Physician at Core Continuity of Care, Inc.',
     image: sKang,
-    bio: 'Polian is an integral part of the patient care process as patients transition through different levels of care.  She assists in ensuring effective communication and the smooth transfer of patient data between clinical providers and facilities throughout the entirety of the patient stay.  From admission to discharge, Polian closely monitors clinical pathways with clinical providers to ensure positive outcomes.  Polian brings several years of scribe experience and leadership to Core Continuity of Care.  She previously served as a lead scribe within Verity Health System.  She earned her Bachelor of Science in Molecular, Cell, & Developmental Biology from the University of California, Santa Cruz. Polian is passionate about patient care and successful outcomes, and is actively pursuing a career as a physician.'
+    bio: ''
   },
   {
     name: 'Rachel Allison',
     title: 'Clinical Administrative Analyst at Core Continuity of Care, Inc.',
     image: rAllison,
-    bio: 'Polian is an integral part of the patient care process as patients transition through different levels of care.  She assists in ensuring effective communication and the smooth transfer of patient data between clinical providers and facilities throughout the entirety of the patient stay.  From admission to discharge, Polian closely monitors clinical pathways with clinical providers to ensure positive outcomes.  Polian brings several years of scribe experience and leadership to Core Continuity of Care.  She previously served as a lead scribe within Verity Health System.  She earned her Bachelor of Science in Molecular, Cell, & Developmental Biology from the University of California, Santa Cruz. Polian is passionate about patient care and successful outcomes, and is actively pursuing a career as a physician.'
+    bio: ''
   },
   {
     name: 'Polian Mac',
