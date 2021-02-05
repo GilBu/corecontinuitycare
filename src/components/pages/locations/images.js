@@ -31,4 +31,20 @@ export const imagesList= [
     fax: "(415) 566-7154",
     placeID: 'https://www.google.com/maps/place/?q=place_id:ChIJ6waVtY59j4AR1sMkscb091o'
   },
+  {
+    name: 'St. Francis Pavillion',
+    address: '99 Escuela Dr, Daly City, CA 94015',
+    image: 'https://lifegen.net/stfrancispavilion/wp-content/uploads/sites/28/2016/12/banner-1.jpg',
+    phone: "(650) 994-3200",
+    fax: "(650) 994-5320",
+    placeID: 'https://goo.gl/maps/eSxfDfj6ymppi5Fq9'
+  },
+  {
+    name: 'St. Francis Heights',
+    address: '35 Escuela Dr, Daly City, CA 94015',
+    image: 'https://s3-media0.fl.yelpcdn.com/bphoto/NJLhYaEj9LaoTaY0Lq_ETA/o.jpg',
+    phone: "(925)462-2400",
+    fax: "(925) 621-4997",
+    placeID: 'https://goo.gl/maps/gEUZKGnRcNUpVbKB8'
+  },
 ]
