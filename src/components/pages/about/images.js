@@ -51,13 +51,13 @@ export const imagesList= [
     name: 'Stephanie Kang, DO',
     title: 'Physician at Core Continuity of Care, Inc.',
     image: sKang,
-    bio: ''
+    bio: "Dr. Kang was born in the Bay Area but grew up on the East Coast where she attended Vassar College and the University of Michigan for her undergraduate studies. She attended medical school at Michigan State University College of Osteopathic Medicine and completed her residency at Genesys Regional Medical Center where she focused her education primarily on hospital medicine. She began her work as a hospitalist in Salinas, CA before moving up to the Bay Area where she continued providing inpatient care at a few hospitals in and around San Francisco. For the past few years, she has worked primarily as a nocturnist in the East Bay before joining Core Continuity of Care to shift her focus on providing post-acute care services."
   },
   {
     name: 'Rachel Allison',
     title: 'Clinical Administrative Analyst at Core Continuity of Care, Inc.',
     image: rAllison,
-    bio: ''
+    bio: 'Rachel Allison is an aspiring physician. She graduated at University of California, Riverside in Neuroscience. She is currently applying for her Master\'s in Biomedical Sciences before going onto medical school.She believes that public health is an integral aspect of holistic, quality patient care, and looks forward to a career in which she can also address socioeconomic health disparities in underserved communities.She currently serves as a Clinic Operations Chair volunteer at Mabuhay Health Center, a student- run free community health clinic targeting underserved Filipino - American residents in San Francisco’s South of Market(SOMA) district.In her free time, she enjoys reading, playing the ukelele, and tending to her houseplants.'
   },
   {
     name: 'Polian Mac',

@@ -61,7 +61,7 @@ resize() {
                   <Link className='link-style' to="/about">About Us</Link>
                   {/* <Link className='link-style' to="/services">Services</Link> */}
                   <Link className='link-style' to="/locations">Locations</Link>
-                  <Link className='link-style' to="/contactUs">Contact</Link>
+                  {/* <Link className='link-style' to="/contactUs">Contact</Link> */}
                 </ul>
         )
         : (

@@ -39,7 +39,7 @@ class App extends React.Component {
             )} />
             <Route path="/about" component={About} />
             <Route path="/locations" component={Locations} />
-            <Route path="/contactUs" component={ContactUs} />
+            {/* <Route path="/contactUs" component={ContactUs} /> */}
           </div>
           <ContactUs />
         </div>
