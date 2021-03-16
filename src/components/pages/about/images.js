@@ -1,5 +1,5 @@
 import pAndres from'./image-files/pAndres.jpg'
-import vNaval from './image-files/vNaval.JPG'
+import jWoo from './image-files/jWoo.jpg'
 import pMac from './image-files/pMac.PNG'
 import iValerio from './image-files/iValerio.png'
 import mChang from './image-files/mChang.jpg'
