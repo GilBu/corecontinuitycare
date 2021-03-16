@@ -30,12 +30,6 @@ export const imagesList= [
     "Philip enjoys traveling and loves to eat."
   },
   {
-    name: 'Vanessa Naval, MSN, FNP-C',
-    title: 'Co-Vice President and Partner at Core Continuity of Care, Inc.',
-    image: vNaval,
-    bio: 'Vanessa Naval is a board certified Family Nurse Practitioner who completed her Master of Science Nursing Degree in 2012 at Holy Names University and Bachelor of Science Nursing Degree at San Francisco State University in 2009. Vanessa specializes in Post Acute Medicine since 2017. She currently works part-time as a mid-level provider at Seton Hospital.  She has a background in Sports Medicine and is an Orthopaedic injection specialist trained at Stanford Health Care from 2013-2017. With a vast array of hospital experience including ICU staff nurse from 2010-2012, post acute care became an area she is passionate about and has undergone training in wellness and nutrition and is a certified associate with USANA healthcare sciences. She is proficient and trained in injectables such as cortisone, PRP, Botox as well as Dermal fillers. She has a strong social media presence as a video blogger on Instagram. Vanessa is compassionate results-driven healthcare professional with progressive experience in a wide variety of scopes.'
-  },
-  {
     name: 'Ingrid Valerio',
     title: 'Chief Operation Officer and Partner at Core Continuity of Care, Inc.',
     image: iValerio,
@@ -64,5 +58,11 @@ export const imagesList= [
     title: 'Clinical Administrative Analyst at Core Continuity of Care, Inc.',
     image: pMac,
     bio: 'Polian is an integral part of the patient care process as patients transition through different levels of care.  She assists in ensuring effective communication and the smooth transfer of patient data between clinical providers and facilities throughout the entirety of the patient stay.  From admission to discharge, Polian closely monitors clinical pathways with clinical providers to ensure positive outcomes.  Polian brings several years of scribe experience and leadership to Core Continuity of Care.  She previously served as a lead scribe within Verity Health System.  She earned her Bachelor of Science in Molecular, Cell, & Developmental Biology from the University of California, Santa Cruz. Polian is passionate about patient care and successful outcomes, and is actively pursuing a career as a physician.'
+  },
+  {
+    name: 'Jessica Woo, MSN, RN, FNP-BC',
+    title: 'Nurse Practitioner at Core Continuity of Care',
+    image: jWoo,
+    bio: ''
   },
 ]
