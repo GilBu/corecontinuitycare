@@ -12,7 +12,7 @@ export const imagesList= [
     name: 'Miteshkumar Patel, CEO, MD',
     title: 'Physician at Core Continuity of Care, Inc.',
     image: mPatel,
-    bio: 'Miteshkumar Patel is a board certified family medicine physician. He graduated family medicine residency from Medical College of Georgia in 2016. Has experience working in outpatient primary clinic, hospital medicine, emergency department and urgent cares. Started working in Post acute care in 2017 and has developed a strong interest in improving care in the area. He is able to due bedside joint injections, iv access, and bedside ultrasound. '
+    bio: 'Miteshkumar Patel is a board certified family medicine physician. He graduated family medicine residency from Medical College of Georgia in 2016. Has experience working in outpatient primary clinic, hospital medicine, emergency department and urgent cares. Started working in Post acute care in 2017 and has developed a strong interest in improving care in the area. He is able to do bedside joint injections, iv access, and bedside ultrasound. '
   },
   {
     name: 'Philip Adrian Andres, MSN, FNP-BC',
@@ -22,7 +22,7 @@ export const imagesList= [
     "completed his Master of Science Nursing Degree in 2011 at Holy Names "+
     "University and Bachelor of Science Nursing Degree at San Francisco State "+
     "University in 2009. Philip specializes in Post Acute Medicine since 2016. "+
-    "Philip works as a Nurse Practitioner at Seton Medical Center at the Acute"+
+    "Philip had worked as a Nurse Practitioner at Seton Medical Center at the Acute"+
     ", Post Acute and Gero Psych floors. He also works part time as a Hospice "+
     "NP. Prior to working as a NP, Philip worked as a RN in various settings "+
     "such as Critical Care Transport RN, ICU, ER, IR, PACU, Oncology, Telemetry "+
