@@ -1,3 +1,7 @@
+.location{
+  padding: 10px 10px;
+}
+
 .locations-container {
   display: flex;
   flex-direction: column;
