@@ -58,7 +58,7 @@ class About extends React.Component {
           creating lasting relationships with partners, and building strong
           connections within the community.</p>
           <h1>Meet the Team</h1>
-          <div className="middlethis" dir='rtl'>
+          <div className="middlethis">
             {this.produceImageWidgets()}
           </div>
           <div className='bio-item' style={{display: this.state.display}}>
