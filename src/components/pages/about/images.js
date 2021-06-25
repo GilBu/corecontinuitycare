@@ -6,6 +6,7 @@ import mChang from './image-files/mChang.jpg'
 import mPatel from './image-files/mPatel.png'
 import sKang from './image-files/sKang.png'
 import rAllison from './image-files/rAllison.jpg'
+import aLiu from './image-files/aLiu.jpg'
 
 export const imagesList= [
   {
@@ -42,7 +43,7 @@ export const imagesList= [
     name: 'Jessica Woo, MSN, RN, FNP-BC',
     title: 'Nurse Practitioner at Core Continuity of Care',
     image: jWoo,
-    bio: ''
+    bio: "Jessica Gin Woo is a board-certified Family Nurse Practitioner who completed her Master's in Nursing at Bradley University in 2019 and her registered Nursing Degree at the College of San Mateo.Jessica has experience with bedside nursing in the Medical- Surgical and Cardiology departments.She enjoys teaching and providing holistic health and education to her patients."
   },
   {
     name: 'Rachel Allison',
@@ -55,5 +56,11 @@ export const imagesList= [
     title: 'Physician at Core Continuity of Care, Inc.',
     image: sKang,
     bio: "Dr. Kang was born in the Bay Area but grew up on the East Coast where she attended Vassar College and the University of Michigan for her undergraduate studies. She attended medical school at Michigan State University College of Osteopathic Medicine and completed her residency at Genesys Regional Medical Center where she focused her education primarily on hospital medicine. She began her work as a hospitalist in Salinas, CA before moving up to the Bay Area where she continued providing inpatient care at a few hospitals in and around San Francisco. For the past few years, she has worked primarily as a nocturnist in the East Bay before joining Core Continuity of Care to shift her focus on providing post-acute care services."
+  },
+  {
+    name: 'Anothony Liu',
+    title: 'Physician at Core Continuity of Care, Inc.',
+    image: aLiu,
+    bio: "Anthony is an aspiring physician with an interest in internal medicine. He graduated at University of California, Davis in 2018 with a Bachelor's of Science in Neurobiology. He is currently completing his post-baccalaureate program at California State University, East Bay before moving onto medical school. He believes that providing culturally sensitive patient care will be the future of medicine and strives to become a provider for patients of all cultures and backgrounds. He serves as a Communications Director at Mabuhay Health Center, a student-run free community health clinic targeting underserved Filipino-American residents in San Francisco’s South of Market (SOMA) district. He also enjoys traveling and learning about foreign cultures and languages."
   },
 ]

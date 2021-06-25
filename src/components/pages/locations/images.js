@@ -34,7 +34,7 @@ export const imagesList= [
   {
     name: 'St. Francis Pavillion',
     address: '99 Escuela Dr, Daly City, CA 94015',
-    image: 'https://lifegen.net/stfrancispavilion/wp-content/uploads/sites/28/2016/12/banner-1.jpg',
+    image: 'https://s3-media0.fl.yelpcdn.com/bphoto/sm3BtlETn8-Bi7CKRvGZ1w/o.jpg',
     phone: "(650) 994-3200",
     fax: "(650) 994-5320",
     placeID: 'https://goo.gl/maps/eSxfDfj6ymppi5Fq9'
@@ -47,12 +47,12 @@ export const imagesList= [
     fax: "(925) 621-4997",
     placeID: 'https://goo.gl/maps/gEUZKGnRcNUpVbKB8'
   },
-  {
-    name: 'San Francisco Health Care and Rehab',
-    address: '1477 Grove Street, San Francsico, CA 94117',
-    image: 'https://sfhcr.com/wp-content/uploads/2017/02/Facility-Picture.jpg',
-    phone: "(415) 563-0565",
-    fax: "(415) 738-2398",
-    placeID: 'https://g.page/SFHCR?share'
-  },
+  // {
+  //   name: 'San Francisco Health Care and Rehab',
+  //   address: '1477 Grove Street, San Francsico, CA 94117',
+  //   image: 'https://sfhcr.com/wp-content/uploads/2017/02/Facility-Picture.jpg',
+  //   phone: "(415) 563-0565",
+  //   fax: "(415) 738-2398",
+  //   placeID: 'https://g.page/SFHCR?share'
+  // },
 ]
