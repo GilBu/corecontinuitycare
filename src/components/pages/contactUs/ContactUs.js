@@ -11,9 +11,9 @@ function ContactUs() {
       <p>Email: helpdesk@CoreContinuityCare.com</p>
       <p>Fax: 415-963-0914</p>
 
-      <h2>Billing Inquiries</h2>
+      {/* <h2>Billing Inquiries</h2>
       <p>Phone: 888-987-6250</p>
-      <p>Email: info@bellmedex.com</p>
+      <p>Email: info@bellmedex.com</p> */}
     </div>
 
     </React.Fragment>
