@@ -59,7 +59,7 @@ export const imagesList= [
   },
   {
     name: 'Anothony Liu',
-    title: 'Physician at Core Continuity of Care, Inc.',
+    title: 'Medical Scribe at Core Continuity of Care, Inc.',
     image: aLiu,
     bio: "Anthony is an aspiring physician with an interest in internal medicine. He graduated at University of California, Davis in 2018 with a Bachelor's of Science in Neurobiology. He is currently completing his post-baccalaureate program at California State University, East Bay before moving onto medical school. He believes that providing culturally sensitive patient care will be the future of medicine and strives to become a provider for patients of all cultures and backgrounds. He serves as a Communications Director at Mabuhay Health Center, a student-run free community health clinic targeting underserved Filipino-American residents in San Francisco’s South of Market (SOMA) district. He also enjoys traveling and learning about foreign cultures and languages."
   },
