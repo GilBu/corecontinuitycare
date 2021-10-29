@@ -40,12 +40,6 @@ export const imagesList= [
     bio: 'Polian is an integral part of the patient care process as patients transition through different levels of care.  She assists in ensuring effective communication and the smooth transfer of patient data between clinical providers and facilities throughout the entirety of the patient stay.  From admission to discharge, Polian closely monitors clinical pathways with clinical providers to ensure positive outcomes.  Polian brings several years of scribe experience and leadership to Core Continuity of Care.  She previously served as a lead scribe within Verity Health System.  She earned her Bachelor of Science in Molecular, Cell, & Developmental Biology from the University of California, Santa Cruz. Polian is passionate about patient care and successful outcomes, and is actively pursuing a career as a physician.'
   },
   {
-    name: 'Jessica Woo, MSN, RN, FNP-BC',
-    title: 'Nurse Practitioner at Core Continuity of Care',
-    image: jWoo,
-    bio: "Jessica Gin Woo is a board-certified Family Nurse Practitioner who completed her Master's in Nursing at Bradley University in 2019 and her registered Nursing Degree at the College of San Mateo.Jessica has experience with bedside nursing in the Medical- Surgical and Cardiology departments.She enjoys teaching and providing holistic health and education to her patients."
-  },
-  {
     name: 'Rachel Allison',
     title: 'Medical Scribe at Core Continuity of Care, Inc.',
     image: rAllison,
