@@ -7,14 +7,14 @@ export const imagesList= [
     phone: "(415) 202-0300",
     placeID: 'https://goo.gl/maps/7EnCR254cDF5GZEx8'
   },
-  {
-    name: 'Victorian Manor',
-    address: '1444 McAllister Street, San Francisco, CA 94115',
-    image: 'https://www.senioradvice.com/img/providers/12906/victorian-manor-6.jpg',
-    phone: "(415) 921-7550",
-    fax: "(415) 921-1895",
-    placeID: 'https://goo.gl/maps/PJcvgcfUSHc1CUDC7'
-  },
+  // {
+  //   name: 'Victorian Manor',
+  //   address: '1444 McAllister Street, San Francisco, CA 94115',
+  //   image: 'https://www.senioradvice.com/img/providers/12906/victorian-manor-6.jpg',
+  //   phone: "(415) 921-7550",
+  //   fax: "(415) 921-1895",
+  //   placeID: 'https://goo.gl/maps/PJcvgcfUSHc1CUDC7'
+  // },
   {
     name: 'Pacific Heights Transitional Care Center',
     address: '2707 Pine Street, San Francisco, CA 94115',
