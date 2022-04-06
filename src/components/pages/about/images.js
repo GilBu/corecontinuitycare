@@ -52,7 +52,7 @@ export const imagesList= [
     bio: "Dr. Kang was born in the Bay Area but grew up on the East Coast where she attended Vassar College and the University of Michigan for her undergraduate studies. She attended medical school at Michigan State University College of Osteopathic Medicine and completed her residency at Genesys Regional Medical Center where she focused her education primarily on hospital medicine. She began her work as a hospitalist in Salinas, CA before moving up to the Bay Area where she continued providing inpatient care at a few hospitals in and around San Francisco. For the past few years, she has worked primarily as a nocturnist in the East Bay before joining Core Continuity of Care to shift her focus on providing post-acute care services."
   },
   {
-    name: 'Anothony Liu',
+    name: 'Anthony Liu',
     title: 'Medical Scribe at Core Continuity of Care, Inc.',
     image: aLiu,
     bio: "Anthony is an aspiring physician with an interest in internal medicine. He graduated at University of California, Davis in 2018 with a Bachelor's of Science in Neurobiology. He is currently completing his post-baccalaureate program at California State University, East Bay before moving onto medical school. He believes that providing culturally sensitive patient care will be the future of medicine and strives to become a provider for patients of all cultures and backgrounds. He serves as a Communications Director at Mabuhay Health Center, a student-run free community health clinic targeting underserved Filipino-American residents in San Francisco’s South of Market (SOMA) district. He also enjoys traveling and learning about foreign cultures and languages."
