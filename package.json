@@ -15,9 +15,6 @@
     "eject": "react-scripts eject",
     "deploy": "aws s3 sync build/ s3://www.corecontinuitycare.com --acl public-read"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -29,5 +26,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
   }
 }

@@ -7,6 +7,7 @@ import mPatel from './image-files/mPatel.png'
 import sKang from './image-files/sKang.png'
 import rAllison from './image-files/rAllison.jpg'
 import aLiu from './image-files/aLiu.jpg'
+import mLangner from './image-files/mLangner.jpg'
 
 export const imagesList= [
   {
@@ -40,16 +41,16 @@ export const imagesList= [
     bio: 'Polian is an integral part of the patient care process as patients transition through different levels of care.  She assists in ensuring effective communication and the smooth transfer of patient data between clinical providers and facilities throughout the entirety of the patient stay.  From admission to discharge, Polian closely monitors clinical pathways with clinical providers to ensure positive outcomes.  Polian brings several years of scribe experience and leadership to Core Continuity of Care.  She previously served as a lead scribe within Verity Health System.  She earned her Bachelor of Science in Molecular, Cell, & Developmental Biology from the University of California, Santa Cruz. Polian is passionate about patient care and successful outcomes, and is actively pursuing a career as a physician.'
   },
   {
-    name: 'Rachel Allison',
-    title: 'Medical Scribe at Core Continuity of Care, Inc.',
-    image: rAllison,
-    bio: 'Rachel Allison is an aspiring physician. She graduated at University of California, Riverside in Neuroscience. She is currently applying for her Master\'s in Biomedical Sciences before going onto medical school.She believes that public health is an integral aspect of holistic, quality patient care, and looks forward to a career in which she can also address socioeconomic health disparities in underserved communities.She currently serves as a Clinic Operations Chair volunteer at Mabuhay Health Center, a student- run free community health clinic targeting underserved Filipino - American residents in San Francisco’s South of Market(SOMA) district.In her free time, she enjoys reading, playing the ukelele, and tending to her houseplants.'
-  },
-  {
     name: 'Stephanie Kang, DO',
     title: 'Physician at Core Continuity of Care, Inc.',
     image: sKang,
     bio: "Dr. Kang was born in the Bay Area but grew up on the East Coast where she attended Vassar College and the University of Michigan for her undergraduate studies. She attended medical school at Michigan State University College of Osteopathic Medicine and completed her residency at Genesys Regional Medical Center where she focused her education primarily on hospital medicine. She began her work as a hospitalist in Salinas, CA before moving up to the Bay Area where she continued providing inpatient care at a few hospitals in and around San Francisco. For the past few years, she has worked primarily as a nocturnist in the East Bay before joining Core Continuity of Care to shift her focus on providing post-acute care services."
+  },
+  {
+    name: 'Mikael Langner, DO',
+    title: 'Physician at Core Continuity of Care, Inc.',
+    image: mLangner,
+    bio: "Dr. Langner is passionate about helping people optimize their health through a focus on wellness and prevention of disease. Through his years of training and public health expertise, Dr.Langner delivers tailored care to ensure his patients are the healthiest they can be.Dr.Langner's interests are gardening and competitive swimming."
   },
   {
     name: 'Anthony Liu',
