@@ -8,6 +8,7 @@ import sKang from './image-files/sKang.png'
 import rAllison from './image-files/rAllison.jpg'
 import aLiu from './image-files/aLiu.jpg'
 import mLangner from './image-files/mLangner.jpg'
+import jHuiso from './image-files/jHuiso.jpg'
 
 export const imagesList= [
   {
@@ -57,6 +58,12 @@ export const imagesList= [
     title: 'Physician at Core Continuity of Care, Inc.',
     image: mLangner,
     bio: "Dr. Langner is passionate about helping people optimize their health through a focus on wellness and prevention of disease. Through his years of training and public health expertise, Dr.Langner delivers tailored care to ensure his patients are the healthiest they can be.Dr.Langner's interests are gardening and competitive swimming."
+  },
+  {
+    name: 'Celso Huiso, BSN, RN, MSN, FNP-C',
+    title: 'Physician at Core Continuity of Care, Inc.',
+    image: jHuiso,
+    bio: ""
   },
   {
     name: 'Anthony Liu',
